@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: todo-api
-          image: ngankeu/tp3:latest
+          image: ngankeu/tp3:v2
           ports:
             - containerPort: 8000
               name: custom
